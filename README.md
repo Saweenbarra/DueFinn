@@ -20,3 +20,6 @@ The audio quality can be assessed by listening to the [input audio file](test/Gu
 
 This hiss can be visualised by playing a clean 262Hz sinusoid through the device and taking the spectrum of the output. As you can see from the image below there are 2 spikes between 11kHz and 20kHz.
 ![](test/MiddleC/spectrum.png)
+
+## Prototype
+![](images/Prototype.jpg)
