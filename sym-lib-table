@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name DueFinn)(type Legacy)(uri ${KIPRJMOD}/libraries/DueFinn.lib)(options "")(descr ""))
+  (lib (name DueFinn-rescue)(type Legacy)(uri ${KIPRJMOD}/DueFinn-rescue.lib)(options "")(descr ""))
 )
