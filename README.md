@@ -2,6 +2,9 @@
 “Due Finn” is a real-time DSP guitar effects headphone amp. It is a personal project inspired by my desire to play electric guitar silently and portably. It is currently being prototyped on a breadboard.
 The project is based on an open source design by [ElectroSmash](https://www.electrosmash.com/) called the [pedalSHIELD](https://www.electrosmash.com/pedalshield)
 
+## Prototype
+![](images/Prototype.jpg)
+
 ## Schematic Breakdown
 ### Input Stage
 ![](images/Input.png)
@@ -20,6 +23,3 @@ The audio quality can be assessed by listening to the [input audio file](test/Gu
 
 This hiss can be visualised by playing a clean 262Hz sinusoid through the device and taking the spectrum of the output. As you can see from the image below there are 2 spikes between 11kHz and 20kHz.
 ![](test/MiddleC/spectrum.png)
-
-## Prototype
-![](images/Prototype.jpg)
