@@ -14,7 +14,7 @@ The input signal first passes through an active band pass filter, conditioning i
 ![](images/Output.png)
 After being processed, the two seperate positive and negative halfs of the waveform are written out by DAC0 and DAC1. A differential amplifier is used to recombine the seperated signals. The following op amp is redundant in it's current configuration however in future versions it can be set up as a summing amplifier with one of the inputs connected to the output of the input stage, bypassing the Due all together. This setup can be used to provide a delay effect where the original signal is summed with a delayed signal output from the Due.
 
-### Power Management
+### Power Supply
 ![](images/Power.png)
 The schematic features a 5V buck converter, 3.3V linear regulator and a +/-5V voltage converter to provide the positive and negative supply rails for the op amps.
 
